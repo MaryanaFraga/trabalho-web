@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: left;
+    margin: 1.8rem;
+}
+
+#voltar{
+    text-decoration: none;
+}
+
+span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 650;
+}
+
+#M, #Y, #A3{
+    color: rgb(55, 127, 253);
+}
+
+#A, #N{
+    color: rgb(253, 46, 46);
+}
+
+#R{
+    color: rgb(215, 215, 6);
+}
+
+#A2{
+    color: rgb(23, 172, 23);
+}
+
+#searchInput{
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(182, 181, 181);
+    padding-left: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 3rem;
+}
+
+#botoes{
+    margin-left: auto;
+}
+
+#contatoBtn{
+    margin-left: 1rem;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: rgba(28, 28, 235, 0.838);
+    border: none;
+}
+
+#contatoBtn:hover{
+    box-shadow: 0px 0px 5px rgba(28, 28, 235, 0.838);
+}
+
+#contato{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav > span{
+    font-size: medium;
+    color: rgb(132, 131, 131);
+    margin-left: 1.5rem;
+}
+
+#todas{
+    margin-left: 200px;
+}
+
+#Imagens{
+    color: black;
+}
+
+#linha2{
+    width: 60px;
+    border-style: solid;
+    border-color:black;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-left: 265px
+}
+
+#linha{
+    border-style: solid;
+    border-color: rgb(225, 222, 222);
+    border-width: 1px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.foto{
+    padding: 1.5rem;
+}
+
+.img{
+    border-radius: 20px;
+}
+
+
+table, th, td{
+    width: 57rem;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    z-index: 1;
+}
+
+th{
+    background-color: #53a0ca;
+}
+tr:nth-child(odd){
+    background-color: rgba(242, 246, 248, 0.7);
+}
+tr:nth-child(even){
+    background-color: rgb(165, 223, 241, 0.7);
+}

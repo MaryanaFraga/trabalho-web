@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rgb(236, 243, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 190px;
+    margin-right: 190px;
+    width: 1100px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+#esquerda{
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 200px;
+}
+
+h2{
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+#direita{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 180px
+}
+
+.textbox, .textarea{
+    position: absolute;
+    background: transparent;
+    padding: 15px;
+    font-size: large;
+    transition: o.1s ease;
+    z-index: 0;
+    margin-bottom: 2rem;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#tb1{
+    top:0;
+}
+
+#tb2{
+    top: 70px;
+}
+
+#tb3{
+    top: 140px;
+}
+
+.labelline{
+    position: absolute;
+    color: grey;
+    background-color: white;
+    transition: 0.2s ease;
+    font-size: large;
+    margin: 15px;
+    text-align: center;
+}
+
+#ll1{
+    top: 0;
+    width: 79.8px;
+}
+
+#ll2{
+    top: 70px;
+    width: 60px;
+}
+
+#ll3{
+    top: 140px;
+    width: 85px;
+}
+
+textarea:focus + .labelline,
+input:focus + .labelline,
+input:valid + .labelline{
+    color: blue;
+    transform: translate(-6px, -28px);
+    z-index: 2;
+    font-size: medium;
+}
+
+.button{
+    margin-top: 370px;
+    margin-right: 100px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border: none;    
+    font-size: medium;
+}
+
+#enviar{
+    background-color: rgba(28, 28, 235, 0.838);
+    color: white;
+}
+
+#enviar:hover{
+    box-shadow: 0px 0px 5px rgba(28, 28, 235, 0.838);
+}
+
+#sair{
+    text-decoration: none;
+    color: rgba(28, 28, 235, 0.838);
+}
+
+#SairBtn{
+    background-color: white;
+}
+
+#SairBtn:hover{
+    background-color: rgb(218, 218, 218);
+}
