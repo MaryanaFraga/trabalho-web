@@ -97,6 +97,8 @@ h2{
     width: 85px;
 }
 
+/* Quando a caixa de texto for clicada e enquanto tiver conteúdo nela as labels serão transferidas para o topo da caixa de texto e sofrerão mudanças de tamanho e cor */
+
 textarea:focus + .labelline,
 input:focus + .labelline,
 input:valid + .labelline{

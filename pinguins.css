@@ -127,6 +127,7 @@ table, th, td{
     z-index: 1;
 }
 
+/* Cor de fundo da tabela muda nos índices pares e ímpares */
 th{
     background-color: #53a0ca;
 }
